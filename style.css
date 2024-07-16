@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+ 
+.main-container{
+    background-color: white;
+    font-family: sans-serif;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-gambar{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-gambar img{
+    width: 20%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a{
+    flex: 1;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.menu-header a:hover{
+    background-color: rgb(247, 213, 139);
+    color: black;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paket-container{
+    width: 300px;
+    margin: 10px;
+}
+
+.paket-container h4{
+    color: rgb(161, 160, 160);
+}
+
+.paket-container img{
+    width: 100%;
+}
+
+.video-container{
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container iframe{
+    width: 100%;
+    height: auto;
+}
+
+.search-container{
+    margin-bottom: 10px;
+}
+.search-container input[type='text']{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-container input[type='submit']{
+    padding: 5px;
+}
+
+.brand-container{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.brand-container img{
+    width: 65%;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.brand-container h1{
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Calistoga", serif;
+    font-weight: 580;
+    font-style: normal;
+}
+
+.brand-container h2{
+    color: white;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 8px #000;
+}
